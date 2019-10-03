@@ -1,0 +1,17 @@
+[
+  {
+    "base" : "/",
+    "rule" : {
+      "GET auto/{mail}/{size}" : "Cache.AutoController:index",
+      "GET auto/{mail}" : "Cache.AutoController:index",
+      "GET gravatar/avatar/{mail}/{size}" : "Cache.CacheController:gravatar",
+      "GET gravatar/avatar/{mail}" : "Cache.CacheController:gravatar",
+      "GET qq/{qq}/{size}" : "Cache.CacheController:qq",
+      "GET qq/{qq}" : "Cache.CacheController:qq",
+      "GET gravatar/{mail}/{size}" : "Cache.CacheController:gravatar",
+      "GET gravatar/{mail}" : "Cache.CacheController:gravatar",
+      "GET github/{name}/{size}" : "Cache.CacheController:github",
+      "GET github/{name}" : "Cache.CacheController:github"
+    }
+  }
+]

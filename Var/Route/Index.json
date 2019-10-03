@@ -1,0 +1,10 @@
+[
+    {
+        "base" : "/",
+        "rule" : {
+        	"GET " : "Home.IndexController:index",
+            "GET index.html" : "Home.IndexController:index",
+            "GET hi/{hi}" : "Home.IndexController:Wow"
+        }
+    }
+]
